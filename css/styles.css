@@ -48,7 +48,7 @@ hr {
 .top-container {
   background-color: #e4e3e3;
   position: relative;
-  padding-top: 100px;
+  padding-top: 65px;
 }
 
 .middle-container {
@@ -113,7 +113,7 @@ hr {
 .copyright {
   font-size: 0.75rem;
   color: #EAF6F6;
-  padding: 4px, 0;
+  margin-top: 20px;
 }
 
 .contact-message {
@@ -122,30 +122,42 @@ hr {
 }
 
 .footer-link {
-  margin: 10px;
-  text-decoration: none;
+  margin: 20px 10px;
+}
+
+.navbar {
+  background-color: #e4e3e3;
+  padding: 1% 5% 0;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #84a9ac;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #84a9ac;
 }
 
 .footer-link:hover {
   color: #EAF6F6
 }
 
-.btn {
-	background-color:#26687E;
-	border-radius:8px;
-	border:1px solid #26687E;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:16px;
-	padding:12px 20px;
-	text-decoration:none;
-  letter-spacing: 1px;
-}
 .btn:hover {
-	background-color:#3E879F;
-}
-.btn:active {
-	position:relative;
-	top:1px;
+  background-color: #84a9ac;
 }
